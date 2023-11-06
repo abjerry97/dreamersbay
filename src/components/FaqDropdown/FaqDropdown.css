@@ -1,0 +1,24 @@
+.faq-card:hover .faq-question {
+    text-decoration: underline !important;
+}
+
+.shadow-white {
+    box-shadow:0 0 2px 0 rgba(247, 243, 243, 0.829), 0 0 2px 0 rgba(247, 243, 243, 0.829) !important;
+}
+
+.faq-card p {
+    /* display: none !important; */
+    animation: opac 0.8s
+  }
+
+  
+@keyframes opac {
+    from {
+      opacity: 0
+    }
+  
+    to {
+      opacity: 1
+    }
+  }
+  
